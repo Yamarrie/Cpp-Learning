@@ -2,9 +2,10 @@
 
 int main() {
 
-	double weight 
-	int nPlanet
-
+	double weight;
+	int nPlanet;
+    double pWeight;
+    
 	std::cout << "Enter your weight on Earth: ";
 	std::cin >> weight;
 
@@ -12,8 +13,7 @@ int main() {
 	std::cout << "Enter the number of the planet you would like to visit: ";
     std::cin >> nPlanet;
 
-    switch(nPlanet); {
-
+    switch(nPlanet) {
     	case 1:
     		pWeight = weight * 0.78;
     		std::cout << "Your weight on Venus is: " << pWeight;
@@ -39,7 +39,7 @@ int main() {
     	case 6:
     		pWeight = weight * 1.23;
     		std::cout << "Your weight on Neptune is: " << pWeight;
-    		break
+    		break;
 
     }
 
