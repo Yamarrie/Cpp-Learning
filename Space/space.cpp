@@ -26,7 +26,20 @@ int main() {
 
     	case 3:
     		pWeight = weight * 2.65;
-    		std::cout << "Your weight on Jupiter is: " << pWeight
+    		std::cout << "Your weight on Jupiter is: " << pWeight;
+    		break;
+    	case 4:
+    		pWeight = weight * 1.17;
+    		std::cout << "Your weight on Saturn is: " << pWeight;
+			break;
+    	case 5:
+    		pWeight = weight * 1.05;
+    		std::cout << "Your weight on Uranus is: " << pWeight;
+    		break;
+    	case 6:
+    		pWeight = weight * 1.23;
+    		std::cout << "Your weight on Neptune is: " << pWeight;
+    		break
 
     }
 
